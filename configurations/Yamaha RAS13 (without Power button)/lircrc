@@ -70,3 +70,15 @@ begin
 	config = node /home/volumio/NP-01_buttons/app/commands/select-playlist.js next
 	repeat = 0
 end
+begin
+  prog = irexec
+  button = TUNING_LEFT
+  config = node /home/volumio/NP-01_buttons/app/commands/idle-screen-image.js prev
+  repeat = 0
+end
+begin
+  prog = irexec
+  button = TUNING_RIGHT
+  config = node /home/volumio/NP-01_buttons/app/commands/idle-screen-image.js next
+  repeat = 0
+end
